@@ -9,7 +9,7 @@ if (total_belanja <=100000 ){
     
 } else if (total_belanja >=100000 && total_belanja <500000 ){
     bayar=total_belanja-(total_belanja*0.1)
-    console.log("Makaz kamu dapet diskon 10%")
+    console.log("Maka kamu dapet diskon 10%")
     
    
 } else if (total_belanja >=510000 && total_belanja <1000000 ){
