@@ -36,7 +36,7 @@ console.log("5. Kerucut " );
 console.log("===============================" );
 
 const menu = prompt("Pilih Menu : ")
-let a, b
+let sisi, p, l ,t,  jari2, tinggi, r3, tg ;
 
 switch (menu){
     case "1" :
