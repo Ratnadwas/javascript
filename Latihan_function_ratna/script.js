@@ -31,7 +31,7 @@ console.log("4. Segitiga " );
 console.log("=====================" );
 
 const menu = prompt("Pilih Menu : ")
-let a,b
+let s1, s2, p, l, jari_jari, alas, tinggi ;
 
 switch (menu){
     case "1" :
