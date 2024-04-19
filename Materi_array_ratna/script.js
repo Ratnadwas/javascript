@@ -37,4 +37,39 @@ const murid = ["Maulana", "Naufal", "Faisal", "Topik", "Rian"]
 const murid2 = murid.slice(2, 4)
 console.log(murid2)
 
-// splice = mengisipkan elemen baru yang sudah tersedia 
+// splice = menyisipkan elemen baru yang sudah tersedia / tertentu 
+// splice(idxAwl, mauDihapusBerapa, element1, element2, dst....)
+murid.splice(2, 0, "Yudha", "Jabbar", "Dani")
+console.log(murid)
+
+// foreach kurleb sama kaya perulangan for
+console.log("ini foreach")
+const nilai = [70, 75, 82, 65, 58];
+
+nilai.forEach(function (e,i) {
+    console.log("Index ke- " + i + " = " + e)
+});
+
+// sort = mengurutkan array
+console.log(nilai.sort())
+
+// map = menentukan nilai yang ada di dalam array  ( menghasilkan array baru)
+console.log("ini map")
+const dikaliDua =  nilai.map(function (e){ 
+    return e * 2;
+    
+})
+console.log(dikaliDua);
+
+// filter and find ( filter  > menyaring lebih dari 1 array ) ( find > menghasilkan satu nilai pertama dari kriteria)
+const bilanganBulat = [2, 3, 1, 7, 6, 9, 11, 8];
+const bilBul = bilanganBulat.filter(function (e) {
+    return e >  5;
+});
+
+const bilBul2 = bilanganBulat.find(function (e){
+    return e > 5; 
+})
+
+console.log(bilBul);
+console.log(bilBul2);
